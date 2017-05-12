@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © 2017 Tigren Solutions. All rights reserved.
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Tigren_Importcms::import_cms_page" title="Import CMS Pages" translate="title" module="Tigren_Importcms" sortOrder="0" parent="Magento_Backend::content_elements" action="importcms/index" resource="Magento_Cms::page"/>
+    </menu>
+</config>
